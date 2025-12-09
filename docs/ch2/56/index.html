@@ -2,25 +2,58 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1">
 		<title>
-			Outer div
+			Nesting divs
 		</title>
+		<link
+			rel="stylesheet"
+			href="/css/breadcrumbs.css">
 	</head>
 	<body>
+		<ul id="breadcrumbs">
+			<li>
+				<a href="/">
+					Ian Lloyd:
+					Build Your Own Web Site
+					The Right Way
+					Usinfg HTML And CSS,
+					3<sup>rd
+					</sup>
+					Edtion</a>
+			</li>
+			<li>
+				<a href="../">
+					Chapter 2</a>
+			</li>
+			<li>
+				Page 56, (nesting
+				<code>
+					div</code>'s)
+			</li>
+		</ul>
 		<h1>
-			Outer div
+			Nesting
+			<code>
+			div</code>'s
 		</h1>
 		<div id="outer">
 			<div id="nested1">
 				<p>
 				A paragraph inside the first
-				nested div.
+				nested
+				<code>
+				div</code>.
 				</p>
 			</div> <!-- end of nested1 div -->
 			<div id="nested2">
 				<p>
 				A paragraph inside the second
-				nested div.
+				nested
+				<code>
+				div</code>.
 				</p>
 			</div> <!-- end of nested2 div -->
 		</div> <!-- end of outer div -->
